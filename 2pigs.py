@@ -60,7 +60,7 @@ def debug_print(message: str) -> None:
 
 
 def model(pos: tuple[int, int, int, int],
-          weights: tuple[float, ...]):
+          weights: tuple[float, ...]) -> float:
 
     # preprocess the pos information
     layer1_neurons = [0, 0, 0, 0, 0, 0, 0, 0] 
